@@ -1,0 +1,34 @@
+body{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.Menu,.Menu ol,.Menu .logo{
+    display: flex;  
+   
+}
+.logo{
+    margin: 10px 100px;
+    line-height: 40px;
+    font-size: 40px;
+    padding-right: 20%;
+    color: rgb(179, 185, 190);
+}
+.logo img{
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.Menu ol{
+    list-style: none;
+   
+}
+.Menu ol li a{
+   text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    color: rgb(179, 185, 190);
+    
+}
