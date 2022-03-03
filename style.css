@@ -147,12 +147,12 @@ body{
 
 /* About */
 #About{
-    margin: 10% 0;
+    margin: 10% ;
 }
 #About img{
     width: 500px;
     float: left;
-    margin: 5% ;
+    margin: 5% 5% 7% ;
     border-radius: 10px;
 }
 #About .context{
@@ -175,4 +175,72 @@ body{
     background-color: yellow;
     color: black;
     width: 120px;
+}
+/* About finished */
+
+/* Portfolio */
+#Portfolio .title{
+    display: flex;
+}
+#Portfolio .title .title1 h4{
+  color: rgb(177, 125, 29);
+  }
+#Portfolio .title .title1 h2{
+  margin-top: -15px;
+}
+#Portfolio .title .title1{
+   margin-left: 10%;
+   width: 100%;
+}
+#Portfolio .title .title2{
+    margin: 0 10% 0 20%;
+ }
+ #Portfolio .cards{
+     display: flex;
+     margin: 5% 10%;
+ }
+ #Portfolio .cards .card1,#Portfolio .cards .card2,#Portfolio .cards .card3{
+    height:270px;
+   border-style: solid;
+   border-width: 0.5px;
+   border-color: rgb(53, 42, 42) ;
+   padding: 5px;
+   margin: 0 15px;
+ }
+#Portfolio .card1 img,#Portfolio .card2 img,#Portfolio .card3 img{
+    width: 300px;
+    border-radius: 10px;
+}
+#Portfolio .card1 h3,#Portfolio .card1 p,#Portfolio .card2 h3,#Portfolio .card2 p,#Portfolio .card3 h3,#Portfolio .card3 p{
+    margin-left: 10px;
+}
+#Portfolio .card2 p{
+    margin-bottom: -5px;
+}
+#Portfolio .card2 span {
+   height: 10px;
+}
+#Portfolio .card2 span i{
+    font-size: 7px;
+}
+#Portfolio .card2 span:first-of-type{
+    margin-left: 30%;
+}
+#Portfolio .card2 span:nth-of-type(4){
+    color: red;
+}
+
+#Portfolio .cards .card2{
+    border-bottom: 0;
+}
+#Portfolio .cards h3{
+    margin-bottom: -10px;
+}
+#Portfolio .cards p{
+    color: rgb(110, 103, 94);
+}
+/* Left Arrow  */
+#Portfolio .cards span:first-child,#Portfolio .cards span:last-child{
+    font-size: 30px;
+    margin: 10% 0;
 }
