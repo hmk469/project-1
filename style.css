@@ -325,4 +325,62 @@ color: rgb(182, 74, 35);
     color: rgb(126, 124, 121);
 
 }
+/* Pricing */
+#Pricing .title{
+    margin: 0 30%;
+    text-align: center;
+}
+#Pricing .title h5{
+    color: rgb(199, 160, 87);
+    margin-bottom: -10px;
+}
+#Pricing .cards{
+    display: flex;
+}
+#Pricing .cards .card1,#Pricing .cards .card2,#Pricing .cards .card3{
+    width: 450px;
+    height: 350px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+}
+#Pricing .cards .card1,#Pricing .cards .card3{
+    margin: 0 5%;
+}
+#Pricing .cards .card1,#Pricing .cards .card2,#Pricing .cards .card3{
+    border-style: outset;
+    padding-left: 2%;
+    border-width: 1px;
+    border-color: rgb(21, 23, 26);
+}
+#Pricing .cards .card2{
+    background-color: white;
+}
+#Pricing .cards .card1 h4 span,#Pricing .cards .card2 h4 span,#Pricing .cards .card3 h4 span{
+    
+    margin-left: 85%;
+}
 
+#Pricing .cards .card1 h5 span,#Pricing .cards .card2 h5 span,#Pricing .cards .card3 h5 span{
+    margin-left: 58%;
+}
+#Pricing .cards span{
+    margin-left: 30%;
+}
+#Pricing .cards .card2 hr{
+    margin: -10px;
+    width: 80%;
+    border-color: rgb(250, 244, 244);
+    opacity: 0.5;
+}
+
+#Pricing .cards .card1{
+    padding-left: 2%;
+}
+#Pricing .cards .card1 button,#Pricing .cards .card2 button,#Pricing .cards .card3 button{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(4, 78, 236);
+    border-radius: 20px;
+    color: wheat;
+    border-style: none;
+}
