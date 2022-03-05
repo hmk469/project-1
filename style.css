@@ -384,3 +384,75 @@ color: rgb(182, 74, 35);
     color: wheat;
     border-style: none;
 }
+/* Contact  */
+#cards{
+    display: flex;
+    margin: 0 7%;
+}
+#cards .card1 h2{
+    color: rgb(192, 183, 169);
+    margin-bottom: -10px;
+}
+#cards  .icons span{
+    background-color: wheat;
+    color: rgb(64, 64, 190);
+    font-size: 30px;
+    float: left;
+    border-radius: 10px;
+    padding: 5%;
+}
+#cards  .icons .icon2 span{
+    color:yellow;
+    background-color: rgb(148, 148, 51);
+}
+#cards  .icons .icon3 span{
+    color:red;
+    background-color: rgb(238, 231, 223);
+}
+#cards  .icons .icon1,#cards  .icons .icon2,#cards  .icons .icon3{
+    margin-bottom: 20%;
+}
+#cards  .icons .icon1 span,#cards  .icons .icon2 span,#cards  .icons .icon3 span{
+   margin:0 5% 0 5%;
+}
+#cards  .icons .icon1 h4,#cards  .icons .icon2 h4,#cards  .icons .icon3 h4{
+    margin-bottom: -10px;
+}
+#cards .card2 .mapouter .gmap_canvas{
+   margin: 10% 3% 0;
+   border-radius: 10px;
+   width: 90%;
+}
+#cards .card3 input{
+    border-radius: 20px;
+    height: 5%;
+    margin-bottom: 7%;
+    padding: 2% 5%;
+    width: 100%;
+    outline: none;
+}
+
+#cards .card3 textarea{
+    padding: 3% 5%;
+    border-radius: 10px;
+    margin-right: -23px;
+    border: none;
+    outline: none;
+}
+#cards .card3 button{
+    background-color: rgb(255, 60, 0);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+
+
+
+
+
+
+
