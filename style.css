@@ -484,7 +484,53 @@ footer ol li a{
     margin-right: 20px;
 }
 /* Responsive */
+@media screen and (max-width:1280px) {
+    .logo{    
+        padding:0 5%;
+        margin-right: 10%;
+    }
+    #Service .cards{
+        margin-top: 20px;
+        margin-left: -60px;
+    }
 
+    #About img {
+        background-color: red;
+        height: 350px;
+    }
+    #Portfolio .cards{
+        margin-left: 12%;
+    }
+      #Team .cards ,  #Team .cards-2{
+          margin-left: -100px;
+      }
+    #Team .cards .card1, #Team .cards .card2, #Team .cards-2 .card1 {
+        width: 700px;
+    }
+    #Team .cards img{
+        width: 250px;
+        height: 300px;
+       margin-top: 20px;
+    }
+    .MeetOurTeam .cards .card1{
+       padding-left: 7%;
+    }
+    #Pricing .cards{
+        margin: 0 5%;
+    }
+    #cards  .card1{
+        margin-right: 10px;
+    }
+    #cards .card1 .icons span{
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+    }
+    #cards .card1 .icons span i{
+     padding: 3px 0 0 6px;
+     font-size: 45px;
+    }
+}
 
 
 
