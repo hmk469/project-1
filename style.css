@@ -495,7 +495,6 @@ footer ol li a{
     }
 
     #About img {
-        background-color: red;
         height: 350px;
     }
     #Portfolio .cards{
@@ -504,6 +503,9 @@ footer ol li a{
       #Team .cards ,  #Team .cards-2{
           margin-left: -100px;
       }
+      #Team h4,#Team h2{
+          margin-left: -250px;
+      }  
     #Team .cards .card1, #Team .cards .card2, #Team .cards-2 .card1 {
         width: 700px;
     }
@@ -531,7 +533,92 @@ footer ol li a{
      font-size: 45px;
     }
 }
-
+@media screen and (max-width:1024px) {
+   #Home .word{
+       margin-right: 100px;
+       margin-left: 200px;
+   }
+   #Service .paragraph{
+       margin-left: 30%;
+       width: 600px;
+   }
+   #Service .paragraph button{
+     margin-left: 35%;
+   }
+    #Service .cards{
+        margin-top: 50px;
+        margin-left:10%;
+    }
+    #Service .cards .first-card .card-1, #Service .cards .first-card .card-2, #Service .cards .second-card .card-3,#Service .cards .second-card .card-4{
+        width: 450px;
+        font-size: 20px;
+    }
+    #About img {
+        width: 400px;
+        height: 350px;
+    }
+    #About{
+        width: 1200px;
+        margin-left: 20%;
+        margin-right: -20px;
+    }
+    #Portfolio .cards{
+        margin-left: 5%;
+    }
+      #Team .cards ,  #Team .cards-2{
+          margin-left: -100px;
+      }
+    #Team .cards .card1, #Team .cards .card2, #Team .cards-2 .card1 {
+        width: 700px;
+    }
+    #Team h4, #Team h2{
+        margin-left: -250px;
+       
+    }
+    #Team .cards  img, #Team .cards-2 img{
+        width: 250px;
+        height: 200px;
+       margin-top: 20px;
+    }
+    #Team .cards-2 .card1{
+        width: 850px;
+        margin-right: 40px;
+    }
+    #Team h4,#Team h2{
+        margin-left: -150px;
+    }  
+    .MeetOurTeam .cards .card1, .MeetOurTeam .cards .card2, .MeetOurTeam .cards .card3{
+        width: 500px;
+    }
+    .MeetOurTeam .cards .card1 h3, .MeetOurTeam .cards .card2 h3, .MeetOurTeam .cards .card3 h3{
+      padding-right:80px ;
+    }
+    .MeetOurTeam .cards .card1{
+        margin-left: -150px;
+    }
+    #Pricing .cards{
+        margin: 0 5%;
+    }
+    #cards  .card1{
+        width:450px;
+        margin-right: 20px;
+        margin-left: -50px;
+    }
+    #cards .card1 .icons span{
+        width: 20px;
+        height: 25px;
+       
+    }
+    #cards .card1 .icons span i{
+        margin-left: -13px;
+        margin-top: -10px;
+         font-size: 35px;
+    }
+    .introDownload{
+        margin-left: 50%;
+        back
+    }
+}
 
 
 
