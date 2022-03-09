@@ -619,6 +619,106 @@ footer ol li a{
         back
     }
 }
+@media screen and (max-width:412px) {
+    #Home{
+        width: 900px;
+    }
+    #Service .paragraph{
+        display: block;
+        margin-left:400px;
+        margin-right:-700px;
+    }
+    #Service .paragraph button{
+      margin-left: 45%;
+    }
+     #Service .cards{
+         margin-top: 50px;
+         margin-left:120px;
+     }
+     #Service .cards .first-card .card-1, #Service .cards .first-card .card-2, #Service .cards .second-card .card-3,#Service .cards .second-card .card-4{
+         width: 600px;
+         font-size: 20px;
+     }
+     #About img {
+         width: 350px;
+         height: 350px;
+     }
+     #About{  
+         margin-left:300px;
+         margin-right: -700px;
+     }
+     #Portfolio .cards{
+         margin-left: 15%;
+     }
+       #Team .cards ,  #Team .cards-2{
+           margin-left: 10px;
+       }
+     #Team .cards .card1, #Team .cards .card2, #Team .cards-2 .card1 {
+         width: 700px;
+     }
+     #Team h4, #Team h2{
+         margin-left: -250px;
+        
+     }
+     #Team .cards  img, #Team .cards-2 img{
+         width: 250px;
+         height: 200px;
+        margin-top: 20px;
+     }
+     #Team .cards-2 .card1{
+         width: 850px;
+         margin-right: 20px;
+     }
+     #Team h4,#Team h2{
+         margin-left: -150px;
+     }  
+     .MeetOurTeam .cards .card1, .MeetOurTeam .cards .card2, .MeetOurTeam .cards .card3{
+         width: 500px;
+     }
+     .MeetOurTeam .cards .card1 h3, .MeetOurTeam .cards .card2 h3, .MeetOurTeam .cards .card3 h3{
+       padding-right:80px ;
+     }
+     .MeetOurTeam .cards .card1{
+         margin-left: -180px;
+     }
+     #Pricing .cards{
+         margin: 0 5%;
+     }
+     #cards  .card1{
+         width:450px;
+         margin-right: 20px;
+         margin-left: 10px;
+     }
+     #cards .card1 .icons span{
+         width: 20px;
+         height: 25px;
+        
+     }
+     #cards .card1 .icons span i{
+         margin-left: -13px;
+         margin-top: -10px;
+          font-size: 35px;
+     }
+     .introDownload{
+         margin-left: 50%;
+         back
+     }
+ }
+ @media screen and (max-width:280px){
+    #About{  
+        margin-left:300px;
+        margin-right: -800px;
+    }
+    #Pricing .cards h5 span{
+        font-size: 10px;
+    }
+    #Pricing .cards p span{
+       margin-left: 70px;
+    }
+    .introDownload{
+        margin-left: 500px;
+    }
+ }
 
 
 
